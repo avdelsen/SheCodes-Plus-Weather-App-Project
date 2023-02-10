@@ -1,0 +1,94 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+h1 {
+  font-size: 50px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+.container {
+  background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+  border-radius: 17px;
+  padding: 20px 20px 20px 20px;
+  max-width: 85%;
+}
+
+.searchbar {
+  background-color: rgba(248, 246, 245, 0.5);
+  border-radius: 7px;
+}
+.searchbutton {
+  background-color: #dc9d5a;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.currentbutton {
+  background-color: #bc7019ba;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.wrapper1 {
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 23px;
+  border-radius: 15px;
+}
+
+.wrapper2 {
+  padding-bottom: 57px;
+  border-radius: 15px;
+}
+.date {
+  font-size: 11px;
+  padding-top: 3px;
+  padding-left: 4px;
+  padding-bottom: 20px;
+}
+
+.li {
+  padding-bottom: 20px;
+}
+
+.currentweathericon {
+  font-size: 70px;
+  padding: 15px 15px 15px 15px;
+  color: #dc9d5a;
+}
+
+.currentweathertemp {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.card {
+  background-color: rgba(255, 255, 255, 0.2);
+  border-radius: 14px;
+  transition: all 180ms ease-in-out;
+  cursor: pointer;
+}
+
+.card:hover {
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(211, 166, 2, 0.2);
+  border: rgba(211, 166, 2, 0.2);
+}
+
+.card-title {
+  padding-bottom: 10px;
+  font-weight: 600;
+  font-size: 23px;
+}
+
+.card-text {
+  padding-top: 10px;
+}
+
+.symbol {
+  font-size: 25px;
+}
