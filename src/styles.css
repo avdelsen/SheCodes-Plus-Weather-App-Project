@@ -11,6 +11,10 @@ h2 {
   font-size: 15px;
 }
 
+footer {
+  font-size: 10px;
+  text-align: center;
+}
 .container {
   background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
   border-radius: 17px;
